@@ -1,0 +1,95 @@
+/* *{
+  margin: 0;
+  box-sizing: border-box;
+}
+h1{
+  font-size: 60px;
+  background: yellow;
+  color: red;
+  text-align: center;
+  padding: 20px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  background: gray;
+  overflow: hidden;
+}
+ul li{
+  float: left;
+  list-style-type: none;
+}
+ul li a{
+  padding: 10px 30px;
+  display: inline-block;
+    font-size: 30px;
+  text-decoration: none;
+  color: green;
+}
+.drovd{
+background: #00d00f0a;
+display: none;
+width: 300px;
+border-radius: 30px;
+position: absolute;
+}
+
+.dro .drovd a{
+  display: block;
+}
+ul li:hover{
+  background: white;
+  transition: 3s ease;
+}
+.drovd a:hover{
+  background: red;
+  border-radius: 20px;
+  transition: 3s ease;
+}
+.dro:hover .drovd{
+display: block;
+transition: 3s linear;
+}
+ */
+
+.icons{
+  overflow: hidden;
+}
+.icons ul{
+  margin: 0;
+  padding: 0;
+
+
+}
+.icons ul li {
+  list-style: none;
+  float: left;
+  margin-right: 10px;
+
+}
+.icons ul li:last-child{
+  margin: 0;
+}
+
+.icons ul li a{
+  background: url('img/my.jpg');
+  background-repeat: no-repeat;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 20px;
+  width: 287px;
+  height: 230px;
+
+}
+.icons ul li:nth-child(1) a {
+    background-position: -60px -197px;
+}
+
+.icons ul li:nth-child(2) a {
+
+  background-position: -231px -7px;
+
+}
+.icons ul li:nth-child(3) a{
+      background-position: -432px -197px;
+}
