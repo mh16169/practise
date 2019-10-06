@@ -1,0 +1,89 @@
+*
+{
+    margin-top: 2px;
+    margin-left: 3px;
+    margin-right: px;
+    margin-bottom: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+div{
+    
+   
+    font-size: 40px;
+    color: orange;
+    align-items: center;    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px;
+}
+.baner
+{
+     min-height: 100vh;
+    background: url("./img/img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color:snow;
+    justify-content:flex-start;
+    text-align: left;
+    align-items:flex-start;
+    padding: 62px;
+    font-size: 50px;
+    padding-left: 30px;
+    
+}
+.hader
+{
+     min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url("./img/img2.jpg") center/cover no-repeat fixed;
+}
+.colorzilla
+{
+     min-height: 100vh;
+    background: linear-gradient(to right,rgba(10,0,0,0.20), rgba(20,100,0,0.5));
+    color: antiquewhite;
+    
+}
+img
+{
+    width:200px;
+    height: 189px;
+    padding: 0;
+    float: right;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: -230px;
+    border-radius: 70%;
+    border: solid gray 6px;
+ 
+}
+.last
+{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,20,0.1), rgba(0,5,0,0.1)),url("./img/img1.jpg");
+    color:azure;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+   
+}
+.futar
+{
+    background: linear-gradient(rgba(5,10,15,0.8),rgba(210,230,0,0.8));
+    
+    height: 50px;
+    border-radius: 70px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color:whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+  
+}

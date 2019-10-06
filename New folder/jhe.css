@@ -52,7 +52,13 @@ transition: 3s linear;
 }
  */
 
-.icons{
+
+
+
+
+
+
+/* .icons{
   overflow: hidden;
 }
 .icons ul{
@@ -92,4 +98,80 @@ transition: 3s linear;
 }
 .icons ul li:nth-child(3) a{
       background-position: -432px -197px;
+}
+
+
+
+
+
+
+
+.color-radient{
+  margin-left: 38px;
+  width: 300px;
+  height: 200px;
+  background: radial-gradient(circle , red 50% , green 50%) ;
+}
+.lt{
+  background: green;
+  width: 20px;
+  height: 300px;
+  margin-top: -10px;
+    margin-left: 38px;
+}
+.p{
+  width: 100px;
+  height: 80px;
+  background: green;
+  border-radius: 20px 0 10px 0;
+}
+h4{
+  margin-top: 5px;
+  text-transform: uppercase;
+  color: red;
+  opacity: 0.6;
+  letter-spacing: 30px;
+}
+
+.shadow{
+border: 1px solid black;
+transition: 1s linear;
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  float: left;
+  margin-right: 10px;
+  overflow: hidden;
+}
+.shadow:last-child{
+  margin-right: 0;   /* eta kaj korse na*/
+/* }
+.shadow:hover{
+  box-shadow: 5px 5px 8px,-5px -5px 8px;
+
+}
+.shadow img{
+width: 100%;
+border-radius: 20px 20px 0 0;
+
+}
+.shadow-text h3{
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+}  */
+
+
+
+
+
+
+
+
+.h{
+width: 200px;
+height: 200px;
+background: green;
+transform: translate(deg 40px);
 }
