@@ -169,9 +169,168 @@ border-radius: 20px 20px 0 0;
 
 
 
-.h{
+/* .h{
+  text-align: center;
 width: 200px;
 height: 200px;
-background: green;
-transform: translate(deg 40px);
+background: red;
+padding: 10px;
+margin-top: 50px;
+transition: 2s linear ;
+}
+.h:hover{
+  transform: scale(2);
+  background: yellow;
+  transform: rotate(360deg);
+  border-radius: 50%;
+}
+.ani{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background: yellow;
+  animation-name: mahadi;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 2;
+  animation-fill-mode:backwards;
+
+}
+@keyframes mahadi {
+0%{
+  background: green;
+  top: 0;
+  left: 0;
+
+}
+25%{
+  background: blue;
+  top: 0;
+  left: 200px;
+  transform: rotate(360deg);
+}
+50%{
+  background: red;
+  top: 200px;
+  left: 200px;
+}
+75%{
+  background: gray;
+  top: 200px;
+  left: 0;
+}
+100%{
+  background: gray;
+  top: 0;
+  left: 0;
+}
+} */
+
+
+
+
+
+
+/* img{
+  width: 33%;
+  height: auto;
+  float: left;
+}
+.l{
+  filter: blur(5px);
+}
+.m{
+  filter: grayscale(150%);
+}
+.n{
+  filter: opacity(50%);
+}
+.b{
+  filter: drop-shadow(5px 5px 3px green);
+}
+.v{
+filter: invert(100%);}
+.c{
+  filter: contrast(255%);
+}
+.a{
+  filter: brightness(50%);
+} */
+
+
+
+
+
+
+
+
+
+/* .grid-con{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background: rgba(20, 200, 20, 0.2);
+  align-content: center;
+  padding: 10px;
+  grid-gap: 20px 22px;
+  height: 1500px;
+
+}
+.grid{
+  border: 1px solid #fff;
+  padding: 20px;
+  text-align: center;
+  background-color:  rgba(0,0,0, 0.3);
+  color: white;
+  font-size: 21px;
+  border-radius: 20px;
+}
+
+
+.one img{
+  width: 100%;
+  height: auto;
+}
+.tow img{
+  width: 100%;
+  height: auto;
+}
+.three img{
+  width: 100%;
+  height: auto;
+}
+.four img{
+  width: 100%;
+  height: auto;
+}
+p{
+  color: black;
+  text-align: justify;
+} */
+
+
+
+
+
+
+
+
+
+
+.flixs-con{
+background: red;
+display: flex;
+justify-content: center;
+align-items:center;
+padding: 20px;
+flex-direction: column;
+height: 600px;
+}
+.flix{
+  width: 100px;
+  height: 20px;
+  padding: 20px;
+  border: 1px solid white;
+  margin: 5px;
+  color: white;
+  font-size: 33px;
 }
