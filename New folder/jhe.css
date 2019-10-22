@@ -51,13 +51,6 @@ display: block;
 transition: 3s linear;
 }
  */
-
-
-
-
-
-
-
 /* .icons{
   overflow: hidden;
 }
@@ -161,14 +154,6 @@ border-radius: 20px 20px 0 0;
   margin: 0;
   text-align: center;
 }  */
-
-
-
-
-
-
-
-
 /* .h{
   text-align: center;
 width: 200px;
@@ -225,12 +210,6 @@ transition: 2s linear ;
   left: 0;
 }
 } */
-
-
-
-
-
-
 /* img{
   width: 33%;
   height: auto;
@@ -256,15 +235,6 @@ filter: invert(100%);}
 .a{
   filter: brightness(50%);
 } */
-
-
-
-
-
-
-
-
-
 /* .grid-con{
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -306,17 +276,7 @@ p{
   color: black;
   text-align: justify;
 } */
-
-
-
-
-
-
-
-
-
-
-.flixs-con{
+/* .flixs-con{
 background: red;
 display: flex;
 justify-content: center;
@@ -333,4 +293,97 @@ height: 600px;
   margin: 5px;
   color: white;
   font-size: 33px;
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .demo{
+  width: 400px;
+  height: 300px;
+  background: green;
+  margin: auto;
+  transform: translateY(100px);
+  top: 50px;
+  outline: 50px solid green;
+
+  outline-offset: 30px;
+}
+.demo h3{
+    text-align: center;
+
+} */
+/* .position{
+  width: 80%;
+  height: 200px;
+  background: green;
+  position: relative;
+  left: 10%;
+  top: 50px;
+}
+.position::after, .position::before{
+  content: "";
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  transform: rotate(45deg);
+  background: red;
+  display: block;
+    cursor: pointer;
+  z-index: -1;
+
+}
+.position::after{
+
+  left: -48px;
+  top: 50px;
+}
+.position::before{
+  right: -48px;
+  top: 50px;
+}
+h2{
+  font-size: 80px;
+  font-weight: bold;
+  color:  linear-gradient(red,green);
+  width: 500px;
+  margin: auto;
+background-origin:
+} */
+.nav {
+  overflow: hidden;
+  background: green;
+width: 99%;
+margin:  auto;
+
+}
+
+.nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav ul li {
+margin: auto;
+  float: left;
+}
+
+.nav ul li:hover {
+  background: yellow;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 4px 10px;
+  margin: 20px;
+  font-size: 20px;
+  color: gray;
+}
+
+.nav ul li:hover a {
+  color: red;
 }
